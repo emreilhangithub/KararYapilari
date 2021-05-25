@@ -19,13 +19,14 @@ namespace KararYapılari
 
         private void button1_Click(object sender, EventArgs e)
         {
-           if(textBox1.Text == "Mustafa")
+            int sayi = Convert.ToInt16(textBox1.Text);
+            if (sayi == 5)
             {
-                label1.Text = "Başarılı";
+                label1.Text = "doğru";
             }
-           else
+            else
             {
-                label1.Text = "Hatalı";
+                label1.Text = "yanlıs";
             }
         }
     }
