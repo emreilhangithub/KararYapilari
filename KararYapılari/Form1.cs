@@ -20,13 +20,13 @@ namespace KararYapılari
         private void button1_Click(object sender, EventArgs e)
         {
             int sayi = Convert.ToInt16(textBox1.Text);
-            if (sayi == 5)
+           if (sayi % 2 == 0)
             {
-                label1.Text = "doğru";
+                label1.Text = "Çift";
             }
-            else
+           else
             {
-                label1.Text = "yanlıs";
+                label1.Text = "Tek";
             }
         }
     }
