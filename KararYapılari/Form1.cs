@@ -29,5 +29,26 @@ namespace KararYapılari
                 label1.Text = "10 küçük veya tekdir";
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double s1, s2, proje, ort;
+            string durum;
+            s1 = Convert.ToDouble(textBox2.Text);
+            s2 = Convert.ToDouble(textBox3.Text);
+            proje = Convert.ToDouble(textBox4.Text);
+            ort = (s1 + s2 + proje) / 3;
+            if(ort >= 50)
+            {
+                durum = "geçti";
+            }
+            else
+            {
+                durum = "kaldı";
+            }
+            textBox5.Text = ort.ToString("0.00")+"/" + durum;
+            
+
+        }
     }
 }
