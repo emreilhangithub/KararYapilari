@@ -20,13 +20,13 @@ namespace KararYapılari
         private void button1_Click(object sender, EventArgs e)
         {
             int sayi = Convert.ToInt16(textBox1.Text);
-           if (sayi % 2 == 0)
+           if (sayi % 2 == 0 && sayi >= 10)
             {
-                label1.Text = "Çift";
+                label1.Text = "10 dan büyük ve çifttir";
             }
            else
             {
-                label1.Text = "Tek";
+                label1.Text = "10 küçük veya tekdir";
             }
         }
     }
