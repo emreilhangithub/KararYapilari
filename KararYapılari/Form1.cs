@@ -16,5 +16,17 @@ namespace KararYapılari
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           if(textBox1.Text == "Mustafa")
+            {
+                label1.Text = "Başarılı";
+            }
+           else
+            {
+                label1.Text = "Hatalı";
+            }
+        }
     }
 }
