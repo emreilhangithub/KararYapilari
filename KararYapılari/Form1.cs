@@ -138,17 +138,17 @@ namespace KararYapılari
         {
             string islem;
             islem = textBox11.Text;
-            int sayi1, sayi2, top, fark, carp, bol, ort;
+            int sayi1, sayi2,sonuc;
             sayi1 = Convert.ToInt16(textBox9.Text);
             sayi2 = Convert.ToInt16(textBox10.Text);                    
            
             switch(islem)
             {
-                case "+": top = sayi1 + sayi2;  MessageBox.Show("Sayı1 = " + sayi1 + "\n" + "Sayı2 = " + sayi2 + "\n" + "İşlem = " + islem + "\n" + "Sonuc = " + top + "\n" );  break; 
-                case "-": fark = sayi1 - sayi2; MessageBox.Show("Sayı1 = " + sayi1 + "\n" + "Sayı2 = " + sayi2 + "\n" + "İşlem = " + islem + "\n" + "Sonuc = " + fark + "\n" );  break; 
-                case "*": carp = sayi1 * sayi2; MessageBox.Show("Sayı1 = " + sayi1 + "\n" + "Sayı2 = " + sayi2 + "\n" + "İşlem = " + islem + "\n" + "Sonuc = " + carp + "\n" );  break; 
-                case "/": bol = sayi1 / sayi2;  MessageBox.Show("Sayı1 = " + sayi1 + "\n" + "Sayı2 = " + sayi2 + "\n" + "İşlem = " + islem + "\n" + "Sonuc = " + bol + "\n" );  break; 
-                case "o": ort = (sayi1 + sayi2) / 2; MessageBox.Show("Sayı1 = " + sayi1 + "\n" + "Sayı2 = " + sayi2 + "\n" + "İşlem = " + islem + "\n" + "Sonuc = " + ort + "\n" );  break;
+                case "+": sonuc = sayi1 + sayi2;   MessageBox.Show("Sayı1 = " + sayi1 + "\n" + "Sayı2 = " + sayi2 + "\n" + "İşlem = " + islem + "\n" + "Sonuc = " + sonuc + "\n" );  break; 
+                case "-": sonuc = sayi1 - sayi2; MessageBox.Show("Sayı1 = " + sayi1 + "\n" + "Sayı2 = " + sayi2 + "\n" + "İşlem = " + islem + "\n" + "Sonuc = " + sonuc + "\n" );  break; 
+                case "*": sonuc = sayi1 * sayi2; MessageBox.Show("Sayı1 = " + sayi1 + "\n" + "Sayı2 = " + sayi2 + "\n" + "İşlem = " + islem + "\n" + "Sonuc = " + sonuc + "\n" );  break; 
+                case "/": sonuc = sayi1 / sayi2;  MessageBox.Show("Sayı1 = " + sayi1 + "\n" + "Sayı2 = " + sayi2 + "\n" + "İşlem = " + islem + "\n" + "Sonuc = " + sonuc + "\n" );  break; 
+                case "o": sonuc = (sayi1 + sayi2) / 2; MessageBox.Show("Sayı1 = " + sayi1 + "\n" + "Sayı2 = " + sayi2 + "\n" + "İşlem = " + islem + "\n" + "Sonuc = " + sonuc + "\n" );  break;
                 default:  MessageBox.Show("Hatalı Seçim"); break;
             }
         }
