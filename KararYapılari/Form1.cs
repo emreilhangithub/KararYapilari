@@ -134,6 +134,29 @@ namespace KararYapılari
             }
         }
 
-     
+        private void button6_Click(object sender, EventArgs e)
+        {
+            string islem;
+            islem = textBox11.Text;
+            int sayi1, sayi2, top, fark, carp, bol, ort;
+            sayi1 = Convert.ToInt16(textBox9.Text);
+            sayi2 = Convert.ToInt16(textBox10.Text);            
+
+            top  = sayi1 + sayi2;
+            fark = sayi1 - sayi2;
+            carp = sayi1 * sayi2;
+            bol = sayi1 / sayi2;
+            ort  = (sayi1 + sayi2)/2;
+
+            switch(islem)
+            {
+                case "+": MessageBox.Show("Sayı1 = " + sayi1 + "\n" + "Sayı2 = " + sayi2 + "\n" + "İşlem = " + islem + "\n" + "Sonuc = " + top + "\n" );  break; 
+                case "-": MessageBox.Show("Sayı1 = " + sayi1 + "\n" + "Sayı2 = " + sayi2 + "\n" + "İşlem = " + islem + "\n" + "Sonuc = " + fark + "\n" );  break; 
+                case "*": MessageBox.Show("Sayı1 = " + sayi1 + "\n" + "Sayı2 = " + sayi2 + "\n" + "İşlem = " + islem + "\n" + "Sonuc = " + carp + "\n" );  break; 
+                case "/": MessageBox.Show("Sayı1 = " + sayi1 + "\n" + "Sayı2 = " + sayi2 + "\n" + "İşlem = " + islem + "\n" + "Sonuc = " + bol + "\n" );  break; 
+                case "o": MessageBox.Show("Sayı1 = " + sayi1 + "\n" + "Sayı2 = " + sayi2 + "\n" + "İşlem = " + islem + "\n" + "Sonuc = " + ort + "\n" );  break;
+                default:  MessageBox.Show("Hatalı Seçim"); break;
+            }
+        }
     }
 }

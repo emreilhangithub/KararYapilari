@@ -60,6 +60,14 @@ namespace KararYapılari
             this.button5 = new System.Windows.Forms.Button();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.label22 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -331,11 +339,86 @@ namespace KararYapılari
             this.label18.TabIndex = 36;
             this.label18.Text = "Aylar";
             // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(746, 106);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(170, 26);
+            this.textBox11.TabIndex = 40;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(664, 21);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(48, 20);
+            this.label21.TabIndex = 41;
+            this.label21.Text = "Sayi1";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(746, 61);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(170, 26);
+            this.textBox10.TabIndex = 42;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(664, 63);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(48, 20);
+            this.label20.TabIndex = 43;
+            this.label20.Text = "Sayi2";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(746, 18);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(170, 26);
+            this.textBox9.TabIndex = 44;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(664, 106);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(47, 20);
+            this.label19.TabIndex = 45;
+            this.label19.Text = "İşlem";
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(764, 194);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(88, 36);
+            this.button6.TabIndex = 46;
+            this.button6.Text = "Hesapla";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(760, 156);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(68, 20);
+            this.label22.TabIndex = 47;
+            this.label22.Text = "Sonuç =";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(963, 491);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.textBox11);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label17);
@@ -407,6 +490,14 @@ namespace KararYapılari
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label22;
     }
 }
 
