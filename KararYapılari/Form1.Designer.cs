@@ -52,6 +52,10 @@ namespace KararYapılari
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -253,11 +257,50 @@ namespace KararYapılari
             this.label14.TabIndex = 30;
             this.label14.Text = "İndirimli Oranı:";
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(326, 282);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(85, 20);
+            this.label15.TabIndex = 32;
+            this.label15.Text = "Kaçıncı Ay:";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(326, 256);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(76, 20);
+            this.label16.TabIndex = 33;
+            this.label16.Text = "Ay Sayısı:";
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(430, 311);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(88, 36);
+            this.button4.TabIndex = 34;
+            this.button4.Text = "Ay Getir";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(430, 250);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(170, 26);
+            this.textBox7.TabIndex = 35;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(827, 491);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label12);
@@ -313,6 +356,10 @@ namespace KararYapılari
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox textBox7;
     }
 }
 
