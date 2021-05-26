@@ -56,6 +56,10 @@ namespace KararYapılari
             this.label16 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -292,11 +296,50 @@ namespace KararYapılari
             this.textBox7.Size = new System.Drawing.Size(170, 26);
             this.textBox7.TabIndex = 35;
             // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(455, 367);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(170, 26);
+            this.textBox8.TabIndex = 39;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(430, 428);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(170, 36);
+            this.button5.TabIndex = 38;
+            this.button5.Text = "Ayları Getir";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(326, 373);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(114, 20);
+            this.label17.TabIndex = 37;
+            this.label17.Text = "Mevsim Giriniz:";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(326, 399);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(44, 20);
+            this.label18.TabIndex = 36;
+            this.label18.Text = "Aylar";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(827, 491);
+            this.ClientSize = new System.Drawing.Size(963, 491);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label18);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label16);
@@ -360,6 +403,10 @@ namespace KararYapılari
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
     }
 }
 

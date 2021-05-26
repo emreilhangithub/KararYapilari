@@ -120,5 +120,20 @@ namespace KararYapılari
                 default: label15.Text = "Ay bilgisini yanlış girdiniz."; break;
             }
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string mevsim = textBox8.Text;
+            switch(mevsim)
+            {
+                case "yaz": label18.Text = "Haziran Temmuz Ağustos"; break;
+                case "sonbahar": label18.Text = "Eylül Ekim Kasım"; break;
+                case "kış": label18.Text = "Aralık Ocak Şubat"; break;
+                case "ilkbahar": label18.Text = "Mart Nisan Mayıs"; break;
+                default: label18.Text = "Hatalı mevsim girdiniz."; break;
+            }
+        }
+
+     
     }
 }
