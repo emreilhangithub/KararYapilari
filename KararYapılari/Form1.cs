@@ -168,5 +168,29 @@ namespace KararYapılari
                 default: MessageBox.Show("Hatalı Seçim"); break;
             }
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                label26.Text = "Aktif";
+            }
+            else
+            {
+                label26.Text = "Pasif";
+            }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked == true)
+            {
+                label27.Text = "Erkek";
+            }
+            if (radioButton2.Checked == true)
+            {
+                label27.Text = "Kadın";
+            }
+        }
     }
 }
