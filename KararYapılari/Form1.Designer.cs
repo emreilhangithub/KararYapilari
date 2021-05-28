@@ -68,6 +68,11 @@ namespace KararYapılari
             this.label19 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -406,11 +411,68 @@ namespace KararYapılari
             this.label22.TabIndex = 47;
             this.label22.Text = "Sonuç =";
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Seçiniz",
+            "Apple",
+            "Melon",
+            "Orange",
+            "Banana",
+            "Peach"});
+            this.comboBox1.Location = new System.Drawing.Point(781, 272);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 28);
+            this.comboBox1.TabIndex = 48;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(705, 275);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(66, 20);
+            this.label23.TabIndex = 49;
+            this.label23.Text = "İngilizce";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(705, 319);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(57, 20);
+            this.label24.TabIndex = 50;
+            this.label24.Text = "Türkçe";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(791, 319);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(40, 20);
+            this.label25.TabIndex = 51;
+            this.label25.Text = "Test";
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(709, 357);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(170, 36);
+            this.button7.TabIndex = 52;
+            this.button7.Text = "Çevir";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(963, 491);
+            this.ClientSize = new System.Drawing.Size(1051, 627);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.label25);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.label19);
@@ -498,6 +560,11 @@ namespace KararYapılari
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Button button7;
     }
 }
 

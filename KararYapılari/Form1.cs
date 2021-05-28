@@ -153,5 +153,20 @@ namespace KararYapılari
             }
         }
 
+        private void button7_Click(object sender, EventArgs e)
+        {
+            string secim;
+            secim = comboBox1.Text;
+
+            switch (secim)
+            {
+                case "Apple": label25.Text = "Elma"; break;
+                case "Melon": label25.Text = "Kavun"; break;
+                case "Orange": label25.Text = "Portakal"; break;
+                case "Banana": label25.Text = "Muz"; break;
+                case "Peach": label25.Text = "Şeftali"; break;
+                default: MessageBox.Show("Hatalı Seçim"); break;
+            }
+        }
     }
 }
