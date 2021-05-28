@@ -80,6 +80,18 @@ namespace KararYapılari
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.button9 = new System.Windows.Forms.Button();
             this.label27 = new System.Windows.Forms.Label();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.button10 = new System.Windows.Forms.Button();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.button11 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -473,7 +485,7 @@ namespace KararYapılari
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(718, 419);
+            this.checkBox1.Location = new System.Drawing.Point(970, 59);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(113, 24);
             this.checkBox1.TabIndex = 53;
@@ -483,7 +495,7 @@ namespace KararYapılari
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(760, 451);
+            this.label26.Location = new System.Drawing.Point(1012, 91);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(60, 20);
             this.label26.TabIndex = 54;
@@ -491,7 +503,7 @@ namespace KararYapılari
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(753, 474);
+            this.button8.Location = new System.Drawing.Point(1005, 114);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(78, 32);
             this.button8.TabIndex = 55;
@@ -502,7 +514,7 @@ namespace KararYapılari
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(885, 418);
+            this.radioButton1.Location = new System.Drawing.Point(977, 164);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(126, 24);
             this.radioButton1.TabIndex = 56;
@@ -513,7 +525,7 @@ namespace KararYapılari
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(885, 451);
+            this.radioButton2.Location = new System.Drawing.Point(977, 197);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(126, 24);
             this.radioButton2.TabIndex = 57;
@@ -523,7 +535,7 @@ namespace KararYapılari
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(913, 517);
+            this.button9.Location = new System.Drawing.Point(1005, 263);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(78, 32);
             this.button9.TabIndex = 58;
@@ -534,17 +546,143 @@ namespace KararYapılari
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(909, 486);
+            this.label27.Location = new System.Drawing.Point(1001, 232);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(60, 20);
             this.label27.TabIndex = 59;
             this.label27.Text = "label27";
             // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(979, 334);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(170, 26);
+            this.textBox12.TabIndex = 63;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(897, 379);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(48, 20);
+            this.label28.TabIndex = 62;
+            this.label28.Text = "Sayi2";
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(979, 377);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(170, 26);
+            this.textBox13.TabIndex = 61;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(897, 337);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(48, 20);
+            this.label29.TabIndex = 60;
+            this.label29.Text = "Sayi1";
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(970, 416);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(90, 24);
+            this.radioButton3.TabIndex = 65;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Çarpma";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(1082, 416);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(95, 24);
+            this.radioButton4.TabIndex = 64;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "Toplama";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Location = new System.Drawing.Point(977, 449);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(79, 24);
+            this.radioButton5.TabIndex = 67;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = "Bölme";
+            this.radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Location = new System.Drawing.Point(1080, 449);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(97, 24);
+            this.radioButton6.TabIndex = 66;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "Çıkartma";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(1113, 495);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(119, 36);
+            this.button10.TabIndex = 68;
+            this.button10.Text = "Hesapla";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(990, 503);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(68, 20);
+            this.label30.TabIndex = 69;
+            this.label30.Text = "Sonuç =";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(1076, 503);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(18, 20);
+            this.label31.TabIndex = 70;
+            this.label31.Text = "0";
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(1155, 357);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(77, 36);
+            this.button11.TabIndex = 71;
+            this.button11.Text = "Temizle";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1051, 627);
+            this.ClientSize = new System.Drawing.Size(1244, 543);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.label31);
+            this.Controls.Add(this.label30);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.radioButton5);
+            this.Controls.Add(this.radioButton6);
+            this.Controls.Add(this.radioButton3);
+            this.Controls.Add(this.radioButton4);
+            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.label29);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.radioButton2);
@@ -656,6 +794,18 @@ namespace KararYapılari
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Button button11;
     }
 }
 

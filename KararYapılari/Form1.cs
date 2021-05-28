@@ -192,5 +192,69 @@ namespace KararYapılari
                 label27.Text = "Kadın";
             }
         }
+
+        int topla(int s1, int s2)
+        {
+            int snc = s1 + s2;
+            return snc;
+        }
+        int cikar(int s1, int s2)
+        {
+            int snc = s1 - s2;
+            return snc;
+        }
+        int carp(int s1, int s2)
+        {
+            int snc = s1 * s2;
+            return snc;
+        }
+        int bol(int s1, int s2)
+        {
+            int snc = s1 / s2;
+            return snc;
+        }
+
+        void temizle()
+        {
+            textBox12.Text = "";
+            textBox13.Text = "";
+            label31.Text = "0";
+            textBox12.Focus();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            int sayi1, sayi2;
+            sayi1 = Convert.ToInt16(textBox12.Text);
+            sayi2 = Convert.ToInt16(textBox13.Text);
+
+            if(radioButton3.Checked == true)
+            {
+                //sonuc = sayi1 + sayi2;
+                //label31.Text = sonuc.ToString();
+                label31.Text = carp(sayi1, sayi2).ToString();
+            }
+
+            if (radioButton4.Checked == true)
+            {                
+                label31.Text = topla(sayi1, sayi2).ToString();
+            }
+
+            if (radioButton5.Checked == true)
+            {
+                label31.Text = bol(sayi1, sayi2).ToString();
+            }
+
+            if (radioButton6.Checked == true)
+            {
+                label31.Text = cikar(sayi1, sayi2).ToString();
+            }
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            temizle();
+        }
     }
 }
